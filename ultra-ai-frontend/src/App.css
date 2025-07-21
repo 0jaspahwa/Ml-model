@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.controls-panel {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.control-group {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.generate-btn {
+  margin-top: 1rem;
+  padding: 12px 24px;
+  border: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
